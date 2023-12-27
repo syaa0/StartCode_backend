@@ -1,0 +1,80 @@
+/* contentview.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .code-item {
+        padding: 5px;
+    }
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin-right: 10px; /* Menambahkan spasi antara teks dan logo */
+}
+
+header img {
+    height: 50px;
+}
+
+
+/* contentview.css */
+
+/* ... kode CSS sebelumnya ... */
+
+.code-item {
+    margin-top: 80px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.code-item:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.code-item h2 {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.code-item:hover h2 {
+    color: #007bff; /* Warna saat hover */
+}
+
+.code-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .code-item {
+        padding: 10px;
+    }
+}

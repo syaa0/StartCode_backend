@@ -1,0 +1,17 @@
+/* viewbyid.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.code-details {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.code-details img {
+    max-width: 100%;
+    height: auto;
+}
